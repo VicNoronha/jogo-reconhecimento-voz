@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+:root{
+    --font font-family: "Manrope", sans-serif;
+    --bg-color: #FFC6C6 ;
+    --primary-color:#8D493A ;
+}
+
+body {
+background-color: var(--bg-color);
+color: var(--primary-color);
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin: 0;
+font-family: var(--font);
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h3 {
+font-size: 2em;
+margin-top: 2px;
+}
+.mensagem{
+    font-size: 1.5em;
+    margin-top: 40px;
+
+}
+.box{
+    border: 2px solid var(--primary-color);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+}
+.btn-jogar {
+    paddding: 8px 15px
+    background-color: #ffcbdb;
+    border: none;
+    color: ;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
